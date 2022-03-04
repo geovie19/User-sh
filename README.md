@@ -10,7 +10,7 @@ read U
 echo
 
 if 
-  [ $U -eq 0 ]
+  [ $? -eq 0 ]
 then
 echo "$U exist in the system"
 
