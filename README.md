@@ -1,22 +1,22 @@
 #!/bin/bash
 #Author : Geovanie
 #Date : 03/03/2022
-#write a script to check if user exist
+#write a script to check if a group exist
 echo
 
-echo "Please enter your user name"
-read U
+echo "Please enter group name"
+read G
 
-cat /etc/passwd | grep $U
+cat /etc/group | grep $G
 
 echo
 
 if 
-  [ $U -eq 0 ]
+  [ $G -eq 0 ]
 then
-echo "$U exist in the system"
+echo "$G exist in the system"
 
 else
-echo "$U does not exist in the system"
+echo "$G does not exist in the system"
 
 fi
