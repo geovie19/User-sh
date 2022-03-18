@@ -7,6 +7,8 @@ echo
 echo "Please enter your user name"
 read U
 
+cat /etc/passwd | grep $U
+
 echo
 
 if 
