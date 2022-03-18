@@ -1,10 +1,10 @@
 #!/bin/bash
 #Author : Geovanie
 #Date : 03/03/2022
-#write a script to check if a group exist
+#Description: Script to check if a group exist in the system
 echo
 
-echo "Please enter group name"
+echo "Please enter the group name"
 read G
 
 cat /etc/group | grep $G
@@ -12,7 +12,7 @@ cat /etc/group | grep $G
 echo
 
 if 
-  [ $G -eq 0 ]
+  [ $? -eq 0 ]
 then
 echo "$G exist in the system"
 
