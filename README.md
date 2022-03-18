@@ -4,7 +4,7 @@
 #write a script to check if user exist
 echo
 
-echo "Please enter your user name"
+echo "Please enter the username"
 read U
 
 echo
